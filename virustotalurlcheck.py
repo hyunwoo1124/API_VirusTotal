@@ -7,7 +7,7 @@ from virustotalapikey import APIKEY
 url = 'https://www.virustotal.com/api/v3/urls'
 
 ## Let's make the payload dynamic
-domain = input("Type in the url you want to check in VT: ")
+domain = input("Type in the IP/url you want to check in VT: ")
 payload = "url=" + domain
 
 # header represent what the the server expects when we do a post request
