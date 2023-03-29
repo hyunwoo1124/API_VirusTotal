@@ -4,7 +4,7 @@ url = "https://www.virustotal.com/api/v3/urls/u-ace452550c1adce3f4dd4f779fceae17
 
 headers = {
     "accept": "application/json",
-    "x-apikey": "0d5a952c81c23aa27f7ffbddef5895d989a80f3bb7053d371554652c0d92d979"
+    "x-apikey": "YOUR KEY"
 }
 
 response = requests.get(url, headers=headers)
